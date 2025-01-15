@@ -171,3 +171,321 @@ input, select, textarea, button{
     margin: 5px;
     border-radius: 5px;
 }
+
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    width: 50%;
+    margin-top: 5%;
+ 
+}
+
+.price h3{
+    font-size: 3rem;
+    margin-left: 100px;
+    padding-left: 20px;
+    border-left: 5px solid
+}
+
+.price .left{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.pright{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price .pcard{
+    width: 37%;
+    height: 40vh;
+    background-color: white;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 5vh;
+}
+
+.pcard li{
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+.pcard span{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.pcard button{
+    background-color: goldenrod;
+}
+
+.testimonials h3{
+    font-size: 3rem;
+    margin-left: 100px;
+    padding-left: 20px;
+    border-left: 5px solid
+}
+
+.tflex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tcard{
+    width: 34%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 5%;
+}
+
+.tcard .leftcard{
+    margin-left: 100px;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerFlex{
+    width: 50%;
+    margin-top: 5%;
+}
+
+
+.formSection{
+    margin-left: 100px;
+    width: 30%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
+
+input, select, textarea, button{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.formSection button{
+    background-color: goldenrod;
+    font-weight: bold;
+   
+}
+
+
+@media (max-width: 1200px) {
+    .heroFlex {
+        width: 100%;
+    }
+
+    .formSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+        padding-left: 20px;
+    }
+
+    .content p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .trustFlex {
+        width: 100%;
+    }
+
+    .activeStudents {
+        padding-left: 20px;
+    }
+
+    .choose {
+        width: 100%;
+    }
+
+    .choosee {
+        width: 100%;
+    }
+
+    .choose .left {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .course {
+        width: 100%;
+    }
+
+    .pricing {
+        flex-direction: column;
+    }
+
+    .price {
+        width: 100%;
+    }
+
+    .pcard {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .tcard {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .footerFlex {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .formSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .content p {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .formSection {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .trust {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trustFlex {
+        width: 100%;
+        text-align: center;
+    }
+
+    .whyChoose{
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 5px;
+    }
+
+    .choose {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .choose h3{
+        font-size: 2rem;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .choosee {
+        width: 100%;
+    }
+
+    .course {
+        margin: 5px;
+        width: 100%;
+        height: 20vh;
+        flex-wrap: wrap;
+    }
+
+    .course h3{
+        font-size: 2rem;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .course .left{
+        margin: 5px;
+    }
+
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .price h3{
+        font-size: 2rem;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .price .left{
+        margin: 5px;
+    }
+
+    .price .pright{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .price .pcard{
+        width: 80%;
+    }
+
+    .testimonials h3 {
+        font-size: 2rem;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .tflex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tcard {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerFlex {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
